@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 12px;
+}
+#cabecalho{
+	position: relative;
+	background: linear-gradient(to right, #00FFFF, #20B2AA);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+input{
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	color: #00BFFF;
+	width: 200px;
+	border-radius: 10px;
+}
+label{
+	font-size: 20px;
+}

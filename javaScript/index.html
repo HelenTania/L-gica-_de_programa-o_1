@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+	
+		<meta charset="UTF-8">
+		<title>Notas dos Aluno</title>
+		<link rel="stylesheet" href="recursos/css/estilo.css">
+		
+			<!---"defer" utilizado no java script faz com que ele seja executado apenas depois do html renderizar todo a pagina---> 
+		<script src="recursos/js/app.js"defer></script>
+		
+	</head>
+
+	<body>
+	
+		<h1 id="cabecalho"> Notas do Aluno</h1>
+			<!-- outra maneira é utilzar o link de acessoa ao java script após todo o codigo dentro do "body"-->
+			<!----<script src="rescursos/js/app.js"></script>----->
+		<form action="">
+		   <label for="nome">Nome</label>
+		   <input type="text" name="nome" id="nome" placeholder="Digite o nome do Aluno">
+		      <label for="nome">1º Nota</label>
+		   <input type="text" name="nota1" id="nota1" placeholder="Digite a primeira nota">
+		      <label for="nome">2º Nota</label>
+		   <input type="text" name="nota2" id="nota2" placeholder="Digite a segunda nota">
+		      <label for="nome">3º Nota</label>
+		   <input type="text" name="nota3" id="nota3" placeholder="Digite a terceira nota">
+		      <label for="nome">4º Nota</label>
+		   <input type="text" name="nota4" id="nota4" placeholder="Digite a quarta nota">
+		     
+		   <input type="submit" value="Enviar" onclick="pegarDadosDoAluno()">
+		</form>
+	</body>
+
+
+
+</html>
